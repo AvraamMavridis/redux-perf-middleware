@@ -39,5 +39,8 @@
         "describe": true,
         "it": true,
         "beforeEach": true
-    }
+    },
+    "plugins": [
+        "react"
+     ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "redux-perf-middleware",
-  "version": "0.0.1",
-  "description": "Measure time between state updates",
+  "version": "1.0.0",
+  "description": "Measure the time that actions needs to change the state",
   "main": "index.js",
   "scripts": {
     "test": "npm run compile && mocha --compilers js:babel-register --require babel-polyfill",
@@ -19,12 +19,18 @@
     "url": "git+https://github.com/AvraamMavridis/redux-perf-middleware.git"
   },
   "keywords": [
-    "Redux",
-    "performance",
-    "middleware"
+    "redux",
+    "logger",
+    "redux-logger",
+    "redux",
+    "middleware",
+    "redux-perf-logger",
+    "redux-perf-middleware",
+    "redux-performance",
+    "performance"
   ],
   "author": "Avraam Mavridis <avraammauridis@gmail.com> (http://avraammavridis.github.io/)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.3.17",
     "babel-core": "^6.1.18",
