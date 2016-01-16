@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/redux-perf-middleware.svg)](https://badge.fury.io/js/redux-perf-middleware)
 
-Measure the time that actions need to change the state
+Measure the time that the actions need to change the state
 
 ### Install
 [![NPM](https://nodei.co/npm/redux-perf-middleware.png?mini=true)](https://nodei.co/npm/redux-perf-middleware/)
