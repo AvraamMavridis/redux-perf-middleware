@@ -1,6 +1,8 @@
 # redux-perf-middleware
 
-[![npm version](https://badge.fury.io/js/redux-perf-middleware.svg)](https://badge.fury.io/js/redux-perf-middleware)
+[![npm version](https://badge.fury.io/js/redux-perf-middleware.svg)](https://badge.fury.io/js/redux-perf-middleware) [![CocoaPods](https://img.shields.io/cocoapods/l/AFNetworking.svg)]()
+[![semantic-versioning](https://img.shields.io/badge/semantic%20-versioning-green.svg)]()
+
 
 Measure the time that the actions need to change the state
 
