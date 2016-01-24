@@ -5,7 +5,6 @@
 *
 */
 export const perflogger = ( store ) => ( next ) => ( action ) => {
-  console.log( 'dispatching', action );
   console.log( '%c Dispatching ', 'background: #222; color: #bada55', action );
   const start = performance.now();
   const result = next( action );
