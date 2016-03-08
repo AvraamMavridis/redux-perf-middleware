@@ -84,7 +84,7 @@ Or check the [sample app](https://github.com/AvraamMavridis/redux-perf-middlewar
 Feel free to open issues, make suggestions or send PRs.
 This project adheres to the Contributor Covenant [code of conduct](http://contributor-covenant.org/). By participating, you are expected to uphold this code.
 
-Contact:
+## Contact
 
 Twitter: [@avraamakis](https://twitter.com/avraamakis)
 
