@@ -10,7 +10,8 @@ Measure the time that the actions need to change the state
 [![NPM](https://nodei.co/npm/redux-perf-middleware.png?mini=true)](https://nodei.co/npm/redux-perf-middleware/)
 
 ### Usage
-```
+
+```javascript
 import perflogger from 'redux-perf-middleware';
 
 const createStoreWithMiddleware = applyMiddleware( perflogger )(createStore);
@@ -24,6 +25,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Example
 
 **Dumb Reducer**
+
 ```javascript
 function slow(){
   let sum;
@@ -51,6 +53,7 @@ export const Elements = function ( state = {}, action ) {
 ```
 
 **Dumb Component**
+
 ```javascript
  import React, { Component } from 'react';
  import { connect } from 'react-redux';
