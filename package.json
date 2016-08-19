@@ -1,6 +1,6 @@
 {
   "name": "redux-perf-middleware",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Measure the time that actions needs to change the state",
   "main": "index.js",
   "scripts": {
@@ -54,5 +54,8 @@
   "bugs": {
     "url": "https://github.com/AvraamMavridis/redux-perf-middleware/issues"
   },
-  "homepage": "https://github.com/AvraamMavridis/redux-perf-middleware#readme"
+  "homepage": "https://github.com/AvraamMavridis/redux-perf-middleware#readme",
+  "dependencies": {
+    "detect-browser": "^1.4.0"
+  }
 }
