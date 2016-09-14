@@ -5,25 +5,15 @@
 *
 */
 
-export const perflogger = store => next => action => {
-  const browserHasPerformanceAPI = typeof window.performance === "object";
+const present = require('present')
 
-  if( browserHasPerformanceAPI )
-  {
+export const perflogger = store => next => action => {
       console.log( '%c Dispatching ', 'background: #222; color: #bada55', action );
-      const start = performance.now();
+      const start = present();
       const result = next( action );
-      const end = performance.now();
+      const end = present();
       console.log( `%c Action with type "${action.type}" took ${( end-start ).toFixed( 2 )} milliseconds.`, 'background: #bada55; color: #222' );
       return result;
-  }
-  else
-  {
-      const browser = require( 'detect-browser' );
-      console.warn( browser.name + ' ' + browser.version + ' does not support the Performance API.' );
-      return next( action );
-  }
-
 };
 
 export default perflogger;
