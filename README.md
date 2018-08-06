@@ -7,7 +7,7 @@
 Measure the time that the actions need to change the state
 
 ### Install
-[![NPM](https://nodei.co/npm/redux-perf-middleware.png?mini=true)](https://nodei.co/npm/redux-perf-middleware/)
+[![NPM](https://nodei.co/npm/redux-perf-middleware.png?mini=true)](https://nodei.co/npm/redux-perf-middleware/) [![Greenkeeper badge](https://badges.greenkeeper.io/AvraamMavridis/redux-perf-middleware.svg)](https://greenkeeper.io/)
 
 ### Usage
 
